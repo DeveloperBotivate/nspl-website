@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-light: #14325c;
+  --color-spark: #f5a524;
+}
+
+html { scroll-behavior: smooth; }
+html, body { overflow-x: hidden; }
+body { overflow-wrap: break-word; background: #fff; color: #1e293b; -webkit-font-smoothing: antialiased; }

@@ -1,0 +1,73 @@
+export const company = {
+  name: 'Sparkyug',
+  tagline: 'Every trade a promise.',
+  address: 'A/401, Shivam Building, Surendra Nagar, Nagpur, India',
+  phones: ['+91 80076 94111', '+91 86000 33441'],
+  email: 'sypl@sparkyug.com',
+}
+
+export const categories = [
+  { slug: 'home-care', name: 'Home Care', icon: '🧼', summary: 'Cleaning and laundry actives for household formulations.',
+    groups: [
+      ['Surfactants', 'SLS, SLES, LABSA, AOS, CAPB'],
+      ['Ethoxylates', '12+ variants'],
+      ['Enzymes', 'Protease, Amylase, Lipase, Cellulase, Mannanase, Pectinase'],
+      ['Fabric Conditioners'], ['Bleaching Agents'], ['Disinfectants / Antimicrobials'], ['Color Speckles'], ['Solvents & Carriers'],
+    ] },
+  { slug: 'personal-care', name: 'Personal Care', icon: '🧴', summary: 'Ingredients for skin, hair and cosmetic formulations.',
+    groups: [
+      ['Fatty Alcohols', 'Cetyl, Cetearyl, Stearyl'],
+      ['Emulsifiers / Surfactants', '20+ types incl. Polysorbates, Stearates'],
+      ['Emulsifying Waxes', '8 formulations'],
+      ['Esters', '10 varieties'],
+      ['Hair Care Ingredients', 'Silicone, Polyquats, Zinc Pyrithione'],
+      ['Thickeners', 'Carbomer, Xanthan Gum, HPMC'],
+      ['Green Preservatives', 'Sophorolipids'],
+      ['Preservatives / Antimicrobials', '9 options'],
+      ['Plant Extracts', '50+ incl. Aloe Vera, Green Tea, Neem, Turmeric'],
+      ['Oils', '50+ varieties: Almond, Argan, Jojoba and more'],
+      ['Butters', '15 types: Cocoa, Shea, Mango'],
+      ['Personal Care Silicones', '15 formulations'],
+      ['UV Filters', '14 varieties'],
+    ] },
+  { slug: 'flavours-fragrance', name: 'Flavours & Fragrance', icon: '🌸', summary: '150+ aroma chemicals across four component sets.',
+    groups: [
+      ['Aldehydes', 'C8–C18 variants'],
+      ['Alcohols', 'Benzyl, Phenyl Ethyl, Geraniol'],
+      ['Esters', 'Acetate, Butyrate, Cinnamate'],
+      ['Ketones & Ionones'], ['Musks & Aromatic Compounds'],
+    ] },
+  { slug: 'plastic-additives', name: 'Plastic Additives & Stabilizers', icon: '🧪', summary: 'Plasticizers, stabilizers and processing aids for PVC and more.',
+    groups: [
+      ['Plasticizers', 'Phthalates (DOP, DIBP, DOTP), Adipates, Epoxidized Soybean Oil'],
+      ['Stabilizers', 'Lead, Hybrid Low Lead, Calcium-Zinc, PVC/CPVC Add Packs'],
+      ['Waxes & Lubricants'],
+    ] },
+  { slug: 'paint-additives', name: 'Paint Additives', icon: '🎨', summary: 'Performance additives for decorative and industrial coatings.',
+    groups: [
+      ['Anti-Settling / Anti-Sagging Agents'], ['Wetting & Dispersing Agents'], ['Emulsifiers'], ['Silicone Surface Additives'],
+      ['Levelling Additives'], ['Thickeners & Rheological Modifiers'],
+      ['Antifoams', 'Powder, Mineral Oil, Wax-based, Silicone-based'],
+      ['Deaerators'], ['Dispersing Agents'], ['Preservatives'], ['pH Stabilizers'],
+    ] },
+  { slug: 'paint-chemicals', name: 'Paint Chemicals & Driers', icon: '🪣', summary: 'Resins, pigments and metal driers.',
+    groups: [
+      ['Resins', 'Styrene Acrylate, Vinyl Acetate, Pure Acrylate'],
+      ['Thickeners & Pigments'],
+      ['Paint Driers', 'Manganese, Cobalt, Lead, Calcium, Zinc, Zirconium Octoates; Copper Naphthenate – 13 variants'],
+    ] },
+  { slug: 'metalworking-lubricants', name: 'Metalworking & Lubricants', icon: '⚙️', summary: 'Fluids and additives for machining and lubrication.',
+    groups: [
+      ['Metalworking Fluids', 'Dowanol, Vegetable Fatty Acids, Sorbitan esters, Glycerol compounds, Gum Rosin'],
+      ['Lubricants', 'Phosphate esters, Imidazolines, Triglycerides, Vegetable esters'],
+    ] },
+  { slug: 'pigments', name: 'Pigments', icon: '🌈', summary: 'Organic and inorganic pigments – enquire for the full range.',
+    groups: [['Pigments', 'Contact us for the complete catalogue']] },
+  { slug: 'oil-gas', name: 'Oil & Gas Products', icon: '🛢️', summary: 'Oilfield chemicals for drilling, production and recovery.',
+    groups: [
+      ['Demulsifiers', '9 types'], ['Oil-Based Mud Additives', '7 components'], ['Rheology Modifiers', '3 types'],
+      ['Cementing Additives'], ['Clouding Glycols'], ['Defoamers', '3 variants'], ['Paraffin Dispersants'],
+      ['Scale Inhibitors'], ['Biocides'], ['Chelating Agents'], ['H2S Scavengers'],
+      ['Enhanced Oil Recovery Solutions'], ['Corrosion Inhibitors', '8 types'], ['Foamers', '10 formulations'],
+    ] },
+]
