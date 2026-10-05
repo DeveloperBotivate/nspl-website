@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import Logo from './Logo.jsx'
 import { company, categories } from '../data/products.js'
 
 export default function Footer() {
@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-navy text-slate-300">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:grid-cols-2 md:py-12 lg:grid-cols-3">
         <div>
-          <img src={logo} alt="Sparkyug" className="mb-4 h-10" />
+          <Logo className="mb-4" />
           <p className="text-sm">{company.tagline}</p>
           <p className="mt-2 text-sm">Fulfilling chemical requirements across industries, around the world.</p>
         </div>
@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-4 text-center text-xs">
-        © {new Date().getFullYear()} Sparkyug. All rights reserved.
+        © {new Date().getFullYear()} NSPL. All rights reserved.
       </div>
     </footer>
   )

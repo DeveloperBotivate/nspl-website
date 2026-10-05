@@ -10,10 +10,10 @@ const strengths = [
 export default function About() {
   return (
     <>
-      <PageHeader title="About Us" subtitle="In business, a promise is the bridge between trust and opportunity." />
+      <PageHeader crumbs={[{ label: "About Us" }]} title="About Us" subtitle="In business, a promise is the bridge between trust and opportunity." />
       <section className="mx-auto max-w-5xl px-4 py-10 md:py-16">
         <p className="text-base leading-relaxed md:text-lg text-slate-600">
-          Sparkyug is a global chemical trading organization headquartered in Nagpur, India, positioning itself as a
+          NSPL is a global chemical trading organization headquartered in Nagpur, India, positioning itself as a
           bridge between Asian manufacturers and international markets. Our leadership team brings over a decade of
           experience across global industries—including oil and lubricants, fire safety, cosmetics, and food.
         </p>

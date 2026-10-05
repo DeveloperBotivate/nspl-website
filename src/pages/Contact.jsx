@@ -17,7 +17,7 @@ export default function Contact() {
 
   return (
     <>
-      <PageHeader title="Enquire" subtitle="Tell us what you need – we'll get back to you." />
+      <PageHeader crumbs={[{ label: "Enquire" }]} title="Enquire" subtitle="Tell us what you need – we'll get back to you." />
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-10 md:grid-cols-2 md:gap-12 md:py-16">
         <form onSubmit={submit} className="space-y-4">
           <input name="name" required placeholder="Your name" className={input} />
