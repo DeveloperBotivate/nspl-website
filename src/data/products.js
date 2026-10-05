@@ -1,8 +1,8 @@
 export const company = {
   tagline: 'Every trade a promise.',
-  address: 'A/401, Shivam Building, Surendra Nagar, Nagpur, India',
-  phones: ['+91 80076 94111', '+91 86000 33441'],
-  email: 'sypl@sparkyug.com',
+  address: '12, Industrial Estate, MIDC Hingna Road, Nagpur, Maharashtra 440016, India',
+  phones: ['+91 98765 43210', '+91 98765 43211'],
+  email: 'info@nspl.example.com',
 }
 
 export const categories = [
